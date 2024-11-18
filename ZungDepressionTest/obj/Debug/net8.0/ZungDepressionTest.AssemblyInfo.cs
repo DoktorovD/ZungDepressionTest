@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZungDepressionTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22274c1d9818e7bda3db763beaf1adf79dc38e74")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZungDepressionTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZungDepressionTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

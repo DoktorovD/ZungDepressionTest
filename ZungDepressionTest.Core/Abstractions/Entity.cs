@@ -1,26 +1,19 @@
 namespace ZungDepressionTest.Core.Abstractions;
 
-public abstract class Entity(Guid id)
+public abstract class Entity
 {
-    public Guid Id { get; init; } = id;
+    public Guid Id { get; init; }
 
-    public override bool Equals(object? obj)
+    public Entity(Guid id)
     {
-        if (obj == null)
-        {
-            return false;
-        }
-
-        if (obj is not Entity other)
-        {
-            return false;
-        }
-        return Id == other.Id;
+        Id = id;
     }
 
-    public override int GetHashCode()
+    public bool IsEqualById(Entity? entity)
     {
-        return Id.GetHashCode();
-    }
+        if (entity is null)
+            return false;
 
+        return Id == entity.Id;
+    }
 }

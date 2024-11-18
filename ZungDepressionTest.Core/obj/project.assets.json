@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Дмитрий\\.nuget\\packages\\": {}
+    "C:\\Users\\Ramwsh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Дмитрий\\Desktop\\ZungDepressionTest\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Ramwsh\\Desktop\\ZungTestNew\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
       "projectName": "ZungDepressionTest.Core",
-      "projectPath": "C:\\Users\\Дмитрий\\Desktop\\ZungDepressionTest\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
-      "packagesPath": "C:\\Users\\Дмитрий\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Дмитрий\\Desktop\\ZungDepressionTest\\ZungDepressionTest\\ZungDepressionTest.Core\\obj\\",
+      "projectPath": "C:\\Users\\Ramwsh\\Desktop\\ZungTestNew\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
+      "packagesPath": "C:\\Users\\Ramwsh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ramwsh\\Desktop\\ZungTestNew\\ZungDepressionTest\\ZungDepressionTest.Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Дмитрий\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ramwsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +33,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/tgbots/Telegram.Bot/_packaging/release/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
