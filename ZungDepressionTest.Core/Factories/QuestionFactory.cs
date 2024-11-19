@@ -6,7 +6,7 @@ namespace ZungDepressionTest.Core.Factories;
 
 public sealed class QuestionFactory : IQuestionsFactory
 {
-    public Result<Question> Create(string? text, string? type)
+    public Result<Question> Create(QuestionsStack stack, string? text, string? type)
     {
         if (string.IsNullOrWhiteSpace(text))
             return new Error("Текст вопроса была пустым");
@@ -19,6 +19,6 @@ public sealed class QuestionFactory : IQuestionsFactory
         if (!isValid)
             return new Error("Недопустимый тип вопроса. Допустимы Прямой и Обратный");
 
-        return new Question(Guid.NewGuid(), text, result);
+        return new Question(stack, text, result);
     }
 }

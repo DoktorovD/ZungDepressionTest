@@ -3,5 +3,6 @@
   &lt;Or&gt;&#xD;
     &lt;Project Location="C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\CoreTestProject" Presentation="&amp;lt;CoreTestProject&amp;gt;" /&gt;&#xD;
     &lt;Project Location="C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\IntegrationTests" Presentation="&amp;lt;IntegrationTests&amp;gt;" /&gt;&#xD;
+    &lt;Project Location="C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\PersistanceTest" Presentation="&amp;lt;PersistanceTest&amp;gt;" /&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

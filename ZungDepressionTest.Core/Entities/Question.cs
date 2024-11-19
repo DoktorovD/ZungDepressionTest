@@ -32,10 +32,13 @@ public sealed class Question : Entity
     // Ответ на вопрос (по умолчанию пустой)
     public Answer Answer { get; private set; }
 
+    public QuestionsStack Stack { get; init; }
+
     // Конструктор создания вопроса (закрытый)
-    internal Question(Guid id, string text, QuestionType type)
-        : base(id)
+    internal Question(QuestionsStack stack, string text, QuestionType type)
+        : base(Guid.NewGuid())
     {
+        Stack = stack;
         Text = text;
         Type = type;
         Answer = Answer.Пустой;

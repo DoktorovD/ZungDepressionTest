@@ -8,4 +8,5 @@ public interface IQuestionStackRepository
     Task RemoveQuestionStack(QuestionsStack stack);
     Task<QuestionsStack?> GetQuestionStackById(Guid id);
     Task<IReadOnlyList<QuestionsStack>> GetAllQuestionStacks();
+    Task<int> Count();
 }

@@ -5,5 +5,5 @@ namespace ZungDepressionTest.Core.Abstractions;
 
 public interface IQuestionsFactory
 {
-    Result<Question> Create(string? text, string? type);
+    Result<Question> Create(QuestionsStack stack, string? text, string? type);
 }

@@ -30,11 +30,12 @@ public class QuestionStackRepositoryTest
     [Test()]
     public async Task GetQuestionStackById()
     {
-        QuestionsStack stack = new QuestionsStack(Guid.NewGuid());
+        QuestionsStack? stack = new QuestionsStack(Guid.NewGuid());
         IQuestionStackRepository repository = new InMemoryQuestionsStackRepository();
         await repository.SaveQuestionStack(stack);
         stack = await repository.GetQuestionStackById(stack.Id);
-        IReadOnlyList<QuestionsStack> stacks = await repository.GetAllQuestionStacks();
-        Assert.That(stack.Id, Is.EqualTo(stack.Id));
+        if (stack is null)
+            Assert.That(stack == null, Is.True);
+        Assert.That(stack == null, Is.False);
     }
 }

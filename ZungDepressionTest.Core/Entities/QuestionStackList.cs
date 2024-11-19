@@ -1,3 +1,4 @@
+using ZungDepressionTest.Core.Abstractions;
 using ZungDepressionTest.Core.Tools;
 
 namespace ZungDepressionTest.Core.Entities;
@@ -7,8 +8,10 @@ public sealed class QuestionStackList
     private readonly List<Question> _questions = [];
 
     // Метод добавления вопроса в стэк вопросов
-    public Result<Question> AddQuestion(Question question)
+    public Result<Question> AddQuestion(Question? question)
     {
+        if (question == null)
+            return new Error("Некорректный запрос");
         // Если стэк уже имеет вопрос, выдаем ошибку о дубликате
         if (_questions.Any(q => q.Equals(question)))
             return new Error("Такой вопрос уже есть в этом наборе вопросов");
@@ -41,6 +44,12 @@ public sealed class QuestionStackList
 
         // Возвращаем ошибку если не найден, и найденный вопрос если найден
         return requested is null ? new Error("Вопрос не найден") : requested;
+    }
+
+    public Result<Question> AddOnCreate(string? text, string? type, IQuestionsFactory factory)
+    {
+        var question = factory.Create(text, type);
+        return AddQuestion(question);
     }
 
     // Метод получения всех вопросов.
