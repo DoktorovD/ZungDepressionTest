@@ -16,3 +16,21 @@ C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\ZungDepressionTest.Persis
 C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\refint\ZungDepressionTest.Persistance.dll
 C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ZungDepressionTest.Persistance.pdb
 C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ref\ZungDepressionTest.Persistance.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ZungDepressionTest.Persistance.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\refint\ZungDepressionTest.Persistance.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ZungDepressionTest.Persistance.pdb
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ZungDepressionTest.Persistance.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ZungDepressionTest.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ZungDepressionTest.Persistance.AssemblyInfoInputs.cache
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ZungDepressionTest.Persistance.AssemblyInfo.cs
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ZungDepressionTest.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ZungDepressionTest.Persistance.sourcelink.json
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\bin\Debug\net8.0\ZungDepressionTest.Persistance.deps.json
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\bin\Debug\net8.0\ZungDepressionTest.Persistance.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\bin\Debug\net8.0\ZungDepressionTest.Persistance.pdb
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\bin\Debug\net8.0\ZungDepressionTest.Application.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\bin\Debug\net8.0\ZungDepressionTest.Core.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\bin\Debug\net8.0\ZungDepressionTest.Application.pdb
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\bin\Debug\net8.0\ZungDepressionTest.Core.pdb
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ZungDepr.BC7C18EE.Up2Date
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Persistance\obj\Debug\net8.0\ref\ZungDepressionTest.Persistance.dll

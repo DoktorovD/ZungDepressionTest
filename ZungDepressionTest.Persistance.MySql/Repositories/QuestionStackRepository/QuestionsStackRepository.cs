@@ -14,23 +14,38 @@ public class QuestionsStackRepository : IQuestionStackRepository
             var col = db.GetCollection<QuestionsStack>();
 
             QuestionStackDAO dao = stack.Convert();
+            col.EnsureIndex(i => i.Id);
             col.Insert(stack);
         }
     }
 
-    public Task RemoveQuestionStack(QuestionsStack stack)
+    public async Task RemoveQuestionStack(QuestionsStack stack)
     {
-        throw new NotImplementedException();
+        using (var db = new LiteDatabase(Constants.ConnectionString))
+        {
+            var col = db.GetCollection<QuestionsStack>();
+
+            col.Delete(stack.Id);
+        }
     }
 
-    public Task<QuestionsStack?> GetQuestionStackById(Guid id)
+    public async Task<QuestionsStack?> GetQuestionStackById(Guid id)
     {
-        throw new NotImplementedException();
+        using (var db = new LiteDatabase(Constants.ConnectionString))
+        {
+            var col = db.GetCollection<QuestionsStack>();
+            return col.FindById(id);
+        }
     }
 
-    public Task<IReadOnlyList<QuestionsStack>> GetAllQuestionStacks()
+    public async Task<IReadOnlyList<QuestionsStack>> GetAllQuestionStacks()
     {
-        throw new NotImplementedException();
+        using (var db = new LiteDatabase(Constants.ConnectionString))
+        {
+            var col = db.GetCollection<QuestionsStack>();
+            return col.Include(i => i.Questions.GetAllQuestions()).FindAll().ToList();
+        }
+        
     }
 
     public async Task<int> Count()

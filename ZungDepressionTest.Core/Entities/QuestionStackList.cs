@@ -46,9 +46,9 @@ public sealed class QuestionStackList
         return requested is null ? new Error("Вопрос не найден") : requested;
     }
 
-    public Result<Question> AddOnCreate(string? text, string? type, IQuestionsFactory factory)
+    public Result<Question> AddOnCreate(QuestionsStack stack, string? text, string? type, IQuestionsFactory factory)
     {
-        var question = factory.Create(text, type);
+        var question = factory.Create(stack,text, type);
         return AddQuestion(question);
     }
 

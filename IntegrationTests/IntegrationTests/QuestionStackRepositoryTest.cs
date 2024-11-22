@@ -9,7 +9,7 @@ public class QuestionStackRepositoryTest
     [Test()]
     public async Task SaveQuestionStack()
     {
-        QuestionsStack stack = new QuestionsStack(Guid.NewGuid());
+        QuestionsStack stack = new QuestionsStack();
         IQuestionStackRepository repository = new InMemoryQuestionsStackRepository();
         await repository.SaveQuestionStack(stack);
         IReadOnlyList<QuestionsStack> stacks = await repository.GetAllQuestionStacks();
@@ -19,7 +19,7 @@ public class QuestionStackRepositoryTest
     [Test()]
     public async Task RemoveQuestionStack()
     {
-        QuestionsStack stack = new QuestionsStack(Guid.NewGuid());
+        QuestionsStack stack = new QuestionsStack();
         IQuestionStackRepository repository = new InMemoryQuestionsStackRepository();
         await repository.SaveQuestionStack(stack);
         await repository.RemoveQuestionStack(stack);
@@ -30,7 +30,7 @@ public class QuestionStackRepositoryTest
     [Test()]
     public async Task GetQuestionStackById()
     {
-        QuestionsStack? stack = new QuestionsStack(Guid.NewGuid());
+        QuestionsStack? stack = new QuestionsStack();
         IQuestionStackRepository repository = new InMemoryQuestionsStackRepository();
         await repository.SaveQuestionStack(stack);
         stack = await repository.GetQuestionStackById(stack.Id);

@@ -14,7 +14,7 @@ public class CreateTests
     public async Task TestCreate()
     {
         IQuestionsFactory questionsFactory = new QuestionFactory();
-        var question = questionsFactory.Create("Вкусный Роллтон?", "Обратный");
+        var question = questionsFactory.Create(new QuestionsStack(),"Вкусный Роллтон?", "Обратный");
         IQuestionRepository questionRepository = new QuestionsRepository();
         await questionRepository.InsertQuestionsAsync(question.Value);
         Assert.That(await questionRepository.GetQuestionsCountAsync(), Is.EqualTo(1));
@@ -24,7 +24,7 @@ public class CreateTests
     public async Task StackCrate()
     {
         IQuestionStackRepository questionsFactory = new QuestionsStackRepository();
-        QuestionsStack questionsStack = new QuestionsStack(Guid.NewGuid());
+        QuestionsStack questionsStack = new QuestionsStack();
         await questionsFactory.SaveQuestionStack(questionsStack);
         Assert.That(await questionsFactory.Count(), Is.EqualTo(1));
     }

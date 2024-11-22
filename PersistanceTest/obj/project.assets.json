@@ -1112,23 +1112,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ramwsh\\.nuget\\packages\\": {},
+    "C:\\Users\\Дмитрий\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ramwsh\\Desktop\\ZungTestNew\\ZungDepressionTest\\PersistanceTest\\PersistanceTest.csproj",
+      "projectUniqueName": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\PersistanceTest\\PersistanceTest.csproj",
       "projectName": "PersistanceTest",
-      "projectPath": "C:\\Users\\Ramwsh\\Desktop\\ZungTestNew\\ZungDepressionTest\\PersistanceTest\\PersistanceTest.csproj",
-      "packagesPath": "C:\\Users\\Ramwsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ramwsh\\Desktop\\ZungTestNew\\ZungDepressionTest\\PersistanceTest\\obj\\",
+      "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\PersistanceTest\\PersistanceTest.csproj",
+      "packagesPath": "C:\\Users\\Дмитрий\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\PersistanceTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ramwsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Дмитрий\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1137,18 +1137,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/tgbots/Telegram.Bot/_packaging/release/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Ramwsh\\Desktop\\ZungTestNew\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj": {
-              "projectPath": "C:\\Users\\Ramwsh\\Desktop\\ZungTestNew\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj"
+            "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj": {
+              "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj"
             },
-            "C:\\Users\\Ramwsh\\Desktop\\ZungTestNew\\ZungDepressionTest\\ZungDepressionTest.Persistance.MySql\\ZungDepressionTest.Persistance.MySql.csproj": {
-              "projectPath": "C:\\Users\\Ramwsh\\Desktop\\ZungTestNew\\ZungDepressionTest\\ZungDepressionTest.Persistance.MySql\\ZungDepressionTest.Persistance.MySql.csproj"
+            "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Persistance.MySql\\ZungDepressionTest.Persistance.MySql.csproj": {
+              "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Persistance.MySql\\ZungDepressionTest.Persistance.MySql.csproj"
             }
           }
         }
@@ -1205,7 +1204,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

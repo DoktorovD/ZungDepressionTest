@@ -11,8 +11,10 @@ public class QuestionCreationTest
     [Test()]
     public void CreateQuestionTest()
     {
+        
         IQuestionsFactory factory = new QuestionFactory();
-        Result<Question> question = factory.Create("Как заварить ролтон", "Прямой");
+        QuestionsStack questionsStack = new QuestionsStack();
+        Result<Question> question = factory.Create(questionsStack,"Как заварить ролтон", "Прямой");
         Trace.Listeners.Add(new ConsoleTraceListener());
         Trace.WriteLine(question.Value.ToString());
         Assert.That(question.IsOk, Is.EqualTo(true));
@@ -22,7 +24,8 @@ public class QuestionCreationTest
     public void CreateInvalidQuestionTest()
     {
         IQuestionsFactory factory = new QuestionFactory();
-        Result<Question> question = factory.Create("", "Хабиб");
+        QuestionsStack questionsStack = new QuestionsStack();
+        Result<Question> question = factory.Create(questionsStack,"" ,"Хабиб");
         Trace.Listeners.Add(new ConsoleTraceListener());
         Trace.WriteLine(question.Error.Message);
         Assert.That(question.IsOk, Is.EqualTo(false));
@@ -32,12 +35,11 @@ public class QuestionCreationTest
     public void AddQuestionInStackTest()
     {
         IQuestionsFactory factory = new QuestionFactory();
-        Result<Question> question = factory.Create("Как заварить ролтон", "Прямой");
+        QuestionsStack questionsStack = new QuestionsStack();
+        Result<Question> question = factory.Create(questionsStack,"Как заварить ролтон", "Прямой");
         Trace.Listeners.Add(new ConsoleTraceListener());
         Trace.WriteLine(question.Value.ToString());
-
-        QuestionsStack stack = new QuestionsStack(Guid.NewGuid());
-        question = stack.Questions.AddQuestion(question.Value);
+        question = questionsStack.Questions.AddQuestion(question.Value);
         Assert.That(question.IsOk, Is.EqualTo(true));
     }
 
@@ -45,13 +47,12 @@ public class QuestionCreationTest
     public void RemoveQuestionFromStackTest()
     {
         IQuestionsFactory factory = new QuestionFactory();
-        Result<Question> question = factory.Create("Как заварить ролтон", "Прямой");
+        QuestionsStack questionsStack = new QuestionsStack();
+        Result<Question> question = factory.Create(questionsStack,"Как заварить ролтон", "Прямой");
         Trace.Listeners.Add(new ConsoleTraceListener());
         Trace.WriteLine(question.Value.ToString());
-
-        QuestionsStack stack = new QuestionsStack(Guid.NewGuid());
-        question = stack.Questions.AddQuestion(question.Value);
-        question = stack.Questions.RemoveQuestion(question.Value);
+        question = questionsStack.Questions.AddQuestion(question.Value);
+        question = questionsStack.Questions.RemoveQuestion(question.Value);
         Assert.That(question.IsOk, Is.EqualTo(true));
     }
 
@@ -59,13 +60,12 @@ public class QuestionCreationTest
     public void FindQuestionFromStackTest()
     {
         IQuestionsFactory factory = new QuestionFactory();
-        Result<Question> question = factory.Create("Как заварить ролтон", "Прямой");
+        QuestionsStack questionsStack = new QuestionsStack();
+        Result<Question> question = factory.Create(questionsStack,"Как заварить ролтон" ,"Прямой");
         Trace.Listeners.Add(new ConsoleTraceListener());
         Trace.WriteLine(question.Value.ToString());
-
-        QuestionsStack stack = new QuestionsStack(Guid.NewGuid());
-        question = stack.Questions.AddQuestion(question.Value);
-        question = stack.Questions.GetQuestion(q => q.Text == "Как заварить ролтон");
+        question = questionsStack.Questions.AddQuestion(question.Value);
+        question = questionsStack.Questions.GetQuestion(q => q.Text == "Как заварить ролтон");
         Assert.That(question.IsOk, Is.EqualTo(true));
     }
 }

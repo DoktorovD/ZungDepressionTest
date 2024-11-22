@@ -18,7 +18,7 @@ public sealed class QuestionsRepository : IQuestionRepository
             questionDAO.Answer = question.Answer.ConvertToBite();
             questionDAO.Id = question.Id;
             questionDAO.Type = question.Type.ToString();
-
+            col.EnsureIndex(i => i.Id);
             col.Insert(questionDAO);
         }
     }

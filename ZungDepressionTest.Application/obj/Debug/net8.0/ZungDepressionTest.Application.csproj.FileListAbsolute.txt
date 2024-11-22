@@ -14,3 +14,19 @@ C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\ZungDepressionTest.Applic
 C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\refint\ZungDepressionTest.Application.dll
 C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ZungDepressionTest.Application.pdb
 C:\Users\Ramwsh\Desktop\ZungTestNew\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ref\ZungDepressionTest.Application.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ZungDepressionTest.Application.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\refint\ZungDepressionTest.Application.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ZungDepressionTest.Application.pdb
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\bin\Debug\net8.0\ZungDepressionTest.Application.deps.json
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\bin\Debug\net8.0\ZungDepressionTest.Application.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\bin\Debug\net8.0\ZungDepressionTest.Application.pdb
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\bin\Debug\net8.0\ZungDepressionTest.Core.dll
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\bin\Debug\net8.0\ZungDepressionTest.Core.pdb
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ZungDepressionTest.Application.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ZungDepressionTest.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ZungDepressionTest.Application.AssemblyInfoInputs.cache
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ZungDepressionTest.Application.AssemblyInfo.cs
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ZungDepressionTest.Application.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ZungDepressionTest.Application.sourcelink.json
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ZungDepr.0B69A7B2.Up2Date
+C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Application\obj\Debug\net8.0\ref\ZungDepressionTest.Application.dll

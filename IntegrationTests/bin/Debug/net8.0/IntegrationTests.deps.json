@@ -322,12 +322,18 @@
           "ZungDepressionTest.Core": "1.0.0"
         },
         "runtime": {
-          "ZungDepressionTest.Application.dll": {}
+          "ZungDepressionTest.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ZungDepressionTest.Core/1.0.0": {
         "runtime": {
-          "ZungDepressionTest.Core.dll": {}
+          "ZungDepressionTest.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ZungDepressionTest.Persistance/1.0.0": {
@@ -335,7 +341,10 @@
           "ZungDepressionTest.Application": "1.0.0"
         },
         "runtime": {
-          "ZungDepressionTest.Persistance.dll": {}
+          "ZungDepressionTest.Persistance.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

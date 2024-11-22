@@ -1,5 +1,7 @@
+using LiteDB;
 using ZungDepressionTest.Application.Tools;
 using ZungDepressionTest.Core.Entities;
+using ZungDepressionTest.Persistance.MySql.Repositories.QuestionStackRepository;
 
 namespace ZungDepressionTest.Persistance.MySql.Repositories.QuestionsRepository.Models;
 
@@ -9,6 +11,8 @@ public sealed class QuestionDAO
     public string Text { get; set; } = string.Empty;
     public byte Answer { get; set; }
     public string Type { get; set; } = string.Empty;
+    [BsonRef("QuestionStacks")]
+    public QuestionStackDAO StackDao { get; set; } = null!;
 }
 
 public static class QuestionDAOExtensions

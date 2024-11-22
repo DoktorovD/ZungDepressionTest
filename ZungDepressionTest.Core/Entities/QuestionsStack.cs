@@ -9,8 +9,8 @@ public sealed class QuestionsStack : Entity
     public QuestionStackList Questions { get; init; }
 
     // Конструктор создания стэка вопросов
-    public QuestionsStack(Guid id)
-        : base(id)
+    public QuestionsStack()
+        : base(Guid.NewGuid())
     {
         Questions = new QuestionStackList();
     }

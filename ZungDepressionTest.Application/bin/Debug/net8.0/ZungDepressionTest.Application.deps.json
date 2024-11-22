@@ -16,7 +16,10 @@
       },
       "ZungDepressionTest.Core/1.0.0": {
         "runtime": {
-          "ZungDepressionTest.Core.dll": {}
+          "ZungDepressionTest.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -28,4 +28,9 @@ public sealed class InMemoryQuestionsStackRepository : IQuestionStackRepository
     {
         return await Task.FromResult(_questionsStacks);
     }
+
+    public async Task<int> Count()
+    {
+        return await Task.FromResult(_questionsStacks.Count);
+    }
 }
