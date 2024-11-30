@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4TttcA+inEs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ramwsh\\Desktop\\zung tests\\ZungDepressionTest\\ZungDepressionTest.Persistance\\ZungDepressionTest.Persistance.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ramwsh\\.nuget\\packages\\litedb\\5.0.20\\litedb.5.0.20.nupkg.sha512",
+    "C:\\Users\\Ramwsh\\.nuget\\packages\\litedb.async\\0.1.8\\litedb.async.0.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}

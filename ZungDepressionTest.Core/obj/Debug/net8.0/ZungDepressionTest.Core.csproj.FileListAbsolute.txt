@@ -22,3 +22,15 @@ C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDep
 C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Core\bin\Debug\net8.0\ZungDepressionTest.Core.dll
 C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Core\bin\Debug\net8.0\ZungDepressionTest.Core.pdb
 C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\ZungDepressionTest.Core\obj\Debug\net8.0\ref\ZungDepressionTest.Core.dll
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\bin\Debug\net8.0\ZungDepressionTest.Core.deps.json
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\bin\Debug\net8.0\ZungDepressionTest.Core.dll
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\bin\Debug\net8.0\ZungDepressionTest.Core.pdb
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\obj\Debug\net8.0\ZungDepressionTest.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\obj\Debug\net8.0\ZungDepressionTest.Core.AssemblyInfoInputs.cache
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\obj\Debug\net8.0\ZungDepressionTest.Core.AssemblyInfo.cs
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\obj\Debug\net8.0\ZungDepressionTest.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\obj\Debug\net8.0\ZungDepressionTest.Core.sourcelink.json
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\obj\Debug\net8.0\ZungDepressionTest.Core.dll
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\obj\Debug\net8.0\refint\ZungDepressionTest.Core.dll
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\obj\Debug\net8.0\ZungDepressionTest.Core.pdb
+C:\Users\Ramwsh\Desktop\zung tests\ZungDepressionTest\ZungDepressionTest.Core\obj\Debug\net8.0\ref\ZungDepressionTest.Core.dll

@@ -1,12 +1,12 @@
-using ZungDepressionTest.Core.Entities;
+using ZungDepressionTest.Core.Entities.QuestionStack;
 
 namespace ZungDepressionTest.Application.Abstractions.Repositories;
 
 public interface IQuestionStackRepository
 {
-    Task SaveQuestionStack(QuestionsStack stack);
-    Task RemoveQuestionStack(QuestionsStack stack);
-    Task<QuestionsStack?> GetQuestionStackById(Guid id);
-    Task<IReadOnlyList<QuestionsStack>> GetAllQuestionStacks();
-    Task<int> Count();
+    Task Add(QuestionsStack stack);
+    Task Remove(QuestionsStack stack);
+    Task<QuestionsStack?> GetById(Guid id);
+    Task<IReadOnlyList<QuestionsStack>> GetAll();
+    Task<int> GetCount();
 }

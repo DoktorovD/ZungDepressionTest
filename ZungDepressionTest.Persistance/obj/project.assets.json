@@ -1,0 +1,185 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "LiteDB/5.0.20": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LiteDB.Async/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "LiteDB": "5.0.20"
+        },
+        "compile": {
+          "lib/netstandard2.0/LiteDB.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.Async.dll": {}
+        }
+      },
+      "ZungDepressionTest.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ZungDepressionTest.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZungDepressionTest.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZungDepressionTest.Application.dll": {}
+        }
+      },
+      "ZungDepressionTest.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ZungDepressionTest.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZungDepressionTest.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiteDB/5.0.20": {
+      "sha512": "/tUhRpJvx1sXJni7cbXPpctFHH1vifoJlg/QB+Cw22IYWqzbC3MAMOy/11limMHmZSPk6NU6JRA+lwqLy2f1Xw==",
+      "type": "package",
+      "path": "litedb/5.0.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AppVeyorSettings.json",
+        "LICENSE",
+        "icon_64x64.png",
+        "lib/net45/LiteDB.dll",
+        "lib/net45/LiteDB.xml",
+        "lib/netstandard1.3/LiteDB.dll",
+        "lib/netstandard1.3/LiteDB.xml",
+        "lib/netstandard2.0/LiteDB.dll",
+        "lib/netstandard2.0/LiteDB.xml",
+        "litedb.5.0.20.nupkg.sha512",
+        "litedb.nuspec"
+      ]
+    },
+    "LiteDB.Async/0.1.8": {
+      "sha512": "uZyLJz5AEMSVbtyFM7LpU+GcMnAsAqDn1Q43p2nCw3chrtkKv8u3O0fyMqdxIGE32DBudRC9HpanpHuacnJ/fQ==",
+      "type": "package",
+      "path": "litedb.async/0.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/LiteDB.Async.dll",
+        "litedb.async.0.1.8.nupkg.sha512",
+        "litedb.async.nuspec"
+      ]
+    },
+    "ZungDepressionTest.Application/1.0.0": {
+      "type": "project",
+      "path": "../ZungDepressionTest.Application/ZungDepressionTest.Application.csproj",
+      "msbuildProject": "../ZungDepressionTest.Application/ZungDepressionTest.Application.csproj"
+    },
+    "ZungDepressionTest.Core/1.0.0": {
+      "type": "project",
+      "path": "../ZungDepressionTest.Core/ZungDepressionTest.Core.csproj",
+      "msbuildProject": "../ZungDepressionTest.Core/ZungDepressionTest.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "LiteDB.Async >= 0.1.8",
+      "ZungDepressionTest.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ramwsh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ramwsh\\Desktop\\zung tests\\ZungDepressionTest\\ZungDepressionTest.Persistance\\ZungDepressionTest.Persistance.csproj",
+      "projectName": "ZungDepressionTest.Persistance",
+      "projectPath": "C:\\Users\\Ramwsh\\Desktop\\zung tests\\ZungDepressionTest\\ZungDepressionTest.Persistance\\ZungDepressionTest.Persistance.csproj",
+      "packagesPath": "C:\\Users\\Ramwsh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ramwsh\\Desktop\\zung tests\\ZungDepressionTest\\ZungDepressionTest.Persistance\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Ramwsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "c:\\program files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/tgbots/Telegram.Bot/_packaging/release/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Ramwsh\\Desktop\\zung tests\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj": {
+              "projectPath": "C:\\Users\\Ramwsh\\Desktop\\zung tests\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "LiteDB.Async": {
+            "target": "Package",
+            "version": "[0.1.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

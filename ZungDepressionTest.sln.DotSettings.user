@@ -1,12 +1,22 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=29910d22_002D3160_002D4dc3_002Da382_002D35ef430d1c89/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;CoreTestProject&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Or&gt;&#xD;
-    &lt;Project Location="C:\Users\Дмитрий\Desktop\Новая папка\ZungDepressionTest\CoreTestProject" Presentation="&amp;lt;CoreTestProject&amp;gt;" /&gt;&#xD;
-    &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::F0913A05-1FB9-4C5C-A1C3-29825708020A::net8.0::PersistanceTest.Samples.CreateTests.CheckStackCreateWithSameID&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::F0913A05-1FB9-4C5C-A1C3-29825708020A::net8.0::PersistanceTest.Samples.StackDelitionTest.DeleteTest&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::F0913A05-1FB9-4C5C-A1C3-29825708020A::net8.0::PersistanceTest.Samples.FindById.TryGetByID&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::F0913A05-1FB9-4C5C-A1C3-29825708020A::net8.0::PersistanceTest.Samples.FindById.GetAll&lt;/TestId&gt;&#xD;
-    &lt;/TestAncestor&gt;&#xD;
-  &lt;/Or&gt;&#xD;
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ALiteCollectionAsync_00601_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fc9f9109ef3444de596197a6ad09e3854fe00_003F88_003Fe485ca45_003FLiteCollectionAsync_00601_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1ef16062_002Dca8b_002D463b_002D89d2_002D265f2903770b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="QuestionStackTestSamples #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD0D6111-E024-4072-A216-CA5CAADD2138::net8.0::ZungDepressionTest.NUnitTests.QuestionStackTests.QuestionStackTestSamples&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=29910d22_002D3160_002D4dc3_002Da382_002D35ef430d1c89/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;CoreTestProject&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD0D6111-E024-4072-A216-CA5CAADD2138::net8.0::ZungDepressionTest.NUnitTests.QuestionStackTests.QuestionStackTestSamples&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=57008dcb_002D6317_002D4a6e_002D851e_002Df2554b5d740a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="QuestionStackTestSamples #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD0D6111-E024-4072-A216-CA5CAADD2138::net8.0::ZungDepressionTest.NUnitTests.QuestionStackTests.QuestionStackTestSamples&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5e4b62a6_002D2731_002D4d26_002Da3cc_002D79683a19a129/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="QuestionStackTestSamples" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD0D6111-E024-4072-A216-CA5CAADD2138::net8.0::ZungDepressionTest.NUnitTests.QuestionStackTests.QuestionStackTestSamples&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

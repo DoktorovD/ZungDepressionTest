@@ -1,0 +1,83 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ZungDepressionTest.Persistance/1.0.0": {
+        "dependencies": {
+          "LiteDB.Async": "0.1.8",
+          "ZungDepressionTest.Application": "1.0.0"
+        },
+        "runtime": {
+          "ZungDepressionTest.Persistance.dll": {}
+        }
+      },
+      "LiteDB/5.0.20": {
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "assemblyVersion": "5.0.20.0",
+            "fileVersion": "5.0.20.0"
+          }
+        }
+      },
+      "LiteDB.Async/0.1.8": {
+        "dependencies": {
+          "LiteDB": "5.0.20"
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.Async.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          }
+        }
+      },
+      "ZungDepressionTest.Application/1.0.0": {
+        "dependencies": {
+          "ZungDepressionTest.Core": "1.0.0"
+        },
+        "runtime": {
+          "ZungDepressionTest.Application.dll": {}
+        }
+      },
+      "ZungDepressionTest.Core/1.0.0": {
+        "runtime": {
+          "ZungDepressionTest.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZungDepressionTest.Persistance/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LiteDB/5.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/tUhRpJvx1sXJni7cbXPpctFHH1vifoJlg/QB+Cw22IYWqzbC3MAMOy/11limMHmZSPk6NU6JRA+lwqLy2f1Xw==",
+      "path": "litedb/5.0.20",
+      "hashPath": "litedb.5.0.20.nupkg.sha512"
+    },
+    "LiteDB.Async/0.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uZyLJz5AEMSVbtyFM7LpU+GcMnAsAqDn1Q43p2nCw3chrtkKv8u3O0fyMqdxIGE32DBudRC9HpanpHuacnJ/fQ==",
+      "path": "litedb.async/0.1.8",
+      "hashPath": "litedb.async.0.1.8.nupkg.sha512"
+    },
+    "ZungDepressionTest.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZungDepressionTest.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

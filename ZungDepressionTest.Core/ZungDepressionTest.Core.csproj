@@ -11,6 +11,7 @@
       <Compile Remove="Helpers\**" />
       <Compile Remove="Models\**" />
       <Compile Remove="Factories\**" />
+      <Compile Remove="Abstractions\IQuestionsFactory.cs" />
     </ItemGroup>
 
     <ItemGroup>
