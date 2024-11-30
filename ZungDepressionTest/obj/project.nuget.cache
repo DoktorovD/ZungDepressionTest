@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5cgdGm3/FbM=",
+  "dgSpecHash": "dPvKcHoHHMI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest\\ZungDepressionTest.csproj",
+  "projectFilePath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest\\ZungDepressionTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Дмитрий\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Дмитрий\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

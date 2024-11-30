@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wraVqF+vzs0=",
+  "dgSpecHash": "R5QhTGCbqAE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Persistance.MySql\\ZungDepressionTest.Persistance.MySql.csproj",
+  "projectFilePath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Persistance.MySql\\ZungDepressionTest.Persistance.MySql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Дмитрий\\.nuget\\packages\\litedb\\5.0.21\\litedb.5.0.21.nupkg.sha512",
     "C:\\Users\\Дмитрий\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512"

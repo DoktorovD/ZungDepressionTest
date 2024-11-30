@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj": {}
+    "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj": {
+    "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj",
         "projectName": "ZungDepressionTest.Application",
-        "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj",
+        "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Application\\ZungDepressionTest.Application.csproj",
         "packagesPath": "C:\\Users\\Дмитрий\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Application\\obj\\",
+        "outputPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj": {
-                "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj"
+              "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj": {
+                "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj": {
+    "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
         "projectName": "ZungDepressionTest.Core",
-        "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
+        "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
         "packagesPath": "C:\\Users\\Дмитрий\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Core\\obj\\",
+        "outputPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

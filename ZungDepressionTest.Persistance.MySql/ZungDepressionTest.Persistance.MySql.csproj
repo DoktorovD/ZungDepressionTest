@@ -16,6 +16,8 @@
 
     <ItemGroup>
       <Compile Remove="Class1.cs" />
+      <Compile Remove="Repositories\QuestionsRepository\Models\QuestionDAO.cs" />
+      <Compile Remove="Repositories\QuestionStackRepository\QuestionStackDAO.cs" />
     </ItemGroup>
 
 </Project>

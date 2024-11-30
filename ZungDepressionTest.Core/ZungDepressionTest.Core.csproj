@@ -10,16 +10,19 @@
       <Compile Remove="Class1.cs" />
       <Compile Remove="Helpers\**" />
       <Compile Remove="Models\**" />
+      <Compile Remove="Factories\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="Helpers\**" />
       <EmbeddedResource Remove="Models\**" />
+      <EmbeddedResource Remove="Factories\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="Helpers\**" />
       <None Remove="Models\**" />
+      <None Remove="Factories\**" />
     </ItemGroup>
 
 </Project>

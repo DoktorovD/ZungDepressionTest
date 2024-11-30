@@ -2,6 +2,7 @@ using System.Reflection.Metadata;
 using LiteDB;
 using ZungDepressionTest.Application.Abstractions.Repositories;
 using ZungDepressionTest.Core.Entities;
+using ZungDepressionTest.Core.Entities.Question;
 
 namespace ZungDepressionTest.Persistance.MySql.Repositories.QuestionStackRepository;
 
@@ -12,8 +13,6 @@ public class QuestionsStackRepository : IQuestionStackRepository
         using (var db = new LiteDatabase(Constants.ConnectionString))
         {
             var col = db.GetCollection<QuestionsStack>();
-
-            QuestionStackDAO dao = stack.Convert();
             col.EnsureIndex(i => i.Id);
             col.Insert(stack);
         }
@@ -24,7 +23,7 @@ public class QuestionsStackRepository : IQuestionStackRepository
         using (var db = new LiteDatabase(Constants.ConnectionString))
         {
             var col = db.GetCollection<QuestionsStack>();
-
+            col.EnsureIndex(i => i.Id);
             col.Delete(stack.Id);
         }
     }
@@ -43,7 +42,8 @@ public class QuestionsStackRepository : IQuestionStackRepository
         using (var db = new LiteDatabase(Constants.ConnectionString))
         {
             var col = db.GetCollection<QuestionsStack>();
-            return col.Include(i => i.Questions.GetAllQuestions()).FindAll().ToList();
+            col.EnsureIndex(x => x.Id);
+            return col.Include(x => x.QuestionList).FindAll().ToList();
         }
         
     }

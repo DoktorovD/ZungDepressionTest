@@ -1,4 +1,5 @@
 using ZungDepressionTest.Core.Entities;
+using ZungDepressionTest.Core.Entities.Question;
 
 namespace ZungDepressionTest.Application.Tools;
 

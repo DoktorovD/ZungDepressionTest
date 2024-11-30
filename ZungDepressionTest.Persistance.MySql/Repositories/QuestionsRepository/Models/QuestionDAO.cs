@@ -1,6 +1,7 @@
 using LiteDB;
 using ZungDepressionTest.Application.Tools;
 using ZungDepressionTest.Core.Entities;
+using ZungDepressionTest.Core.Entities.Question;
 using ZungDepressionTest.Persistance.MySql.Repositories.QuestionStackRepository;
 
 namespace ZungDepressionTest.Persistance.MySql.Repositories.QuestionsRepository.Models;

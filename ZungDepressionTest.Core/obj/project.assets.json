@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
       "projectName": "ZungDepressionTest.Core",
-      "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
+      "projectPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Core\\ZungDepressionTest.Core.csproj",
       "packagesPath": "C:\\Users\\Дмитрий\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка\\ZungDepressionTest\\ZungDepressionTest.Core\\obj\\",
+      "outputPath": "C:\\Users\\Дмитрий\\Desktop\\Новая папка (2)\\ZungDepressionTest\\ZungDepressionTest.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
